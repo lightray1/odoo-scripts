@@ -1,3 +1,4 @@
+#create a crontab i.e. */5 * * * * /root/notify.sh odoo.service
 #!/bin/bash -
 
 hostname=$(hostnamectl --static)
